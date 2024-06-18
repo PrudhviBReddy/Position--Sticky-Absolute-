@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+ 
+ 
+ #player{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#IPLHeading{
+    background-color: blue;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    position: sticky;
+    top: 0;
+}
+
+ .playerDiv{
+    width: 300px;
+    height: 350px;
+    border-radius: 10px solid gray;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    background-color: brown;
+    margin: 10px;
+ }
+ img:hover{
+    filter: drop-shadow(10px 10px 10px black);
+ }
+ #CSK{
+    font-size:xx-large;
+    text-align: center;
+    color: red;
+    object-fit: cover;
+ }
+ a{
+    text-decoration: none;
+ }
+ #CSKLogo{
+    position: fixed;
+    right: 0px;
+ }
+ #IPLLogo{
+    width: 100px;
+    object-fit: cover;
+ }
+ #parentDiv{
+    width: 1000px;
+    height: 800px;
+    position: relative;
+    right: 20px;
+    padding: 20px;
+    border: 2px solid gray;
+ }
+ #childDiv{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+ }
+
+ p{
+   width: 600px;
+   height: 100px;
+ }
+ #TATALogo{
+    width: 260px;
+    height: 150px;
+    
+ }
+ 
+ #list{
+   width: 280px;
+   padding: 10px;
+ }
+ mark{
+   color: blue;
+   background-color: none;
+ }
+
+ #india{
+   font-family: "Playfair Display", serif;
+   font-optical-sizing: auto;
+   font-weight: weight;
+   font-style: normal;
+ }
